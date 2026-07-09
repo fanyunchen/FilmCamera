@@ -1,13 +1,10 @@
 {
-  "name": "entry",
+  "name": "@hm/util",
   "version": "1.0.0",
   "description": "Please describe the basic information.",
   "main": "",
   "author": "",
   "license": "",
-  "dependencies": {
-    "@hm/app": "latest",
-    "@hm/util": "latest"
-  }
+  "dependencies": {}
 }
 

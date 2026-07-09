@@ -1,0 +1,26 @@
+{
+  "module": {
+    "name": "util",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "UtilAbility",
+    "deviceTypes": [
+      "phone"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "UtilAbility",
+        "srcEntry": "./ets/utilability/UtilAbility.ets",
+        "description": "$string:UtilAbility_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:UtilAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ]
+  }
+}

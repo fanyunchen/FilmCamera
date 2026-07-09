@@ -37,6 +37,30 @@
           ]
         }
       ]
+    },
+    {
+      "name": "app",
+      "srcPath": "./repos/base/app",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "util",
+      "srcPath": "./repos/base/util",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
     }
   ]
 }
