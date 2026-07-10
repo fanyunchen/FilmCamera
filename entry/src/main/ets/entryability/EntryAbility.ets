@@ -22,10 +22,6 @@ export default class EntryAbility extends UIAbility {
   onWindowStageCreate(windowStage: window.WindowStage): void {
     // Main window is created, set main page for this ability
     hilog.info(DOMAIN, 'testTag', '%{public}s', 'Ability onWindowStageCreate');
-    // 设置应用沉浸化
-    windowStage.getMainWindow().then(window => {
-      EntryUtil.setWindowLayoutFullScreen(window)
-    })
 
     windowStage.loadContent('pages/Index', (err) => {
       if (err.code) {
@@ -34,6 +30,11 @@ export default class EntryAbility extends UIAbility {
       }
       hilog.info(DOMAIN, 'testTag', 'Succeeded in loading the content.');
     });
+
+    // 设置应用沉浸化
+    windowStage.getMainWindow().then(window => {
+      EntryUtil.setWindowLayoutFullScreen(window)
+    })
   }
 
   onWindowStageDestroy(): void {
