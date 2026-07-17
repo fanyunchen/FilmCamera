@@ -10,7 +10,19 @@
     },
     {
       "name": "EntryAbility_label",
-      "value": "label"
+      "value": "胶片相机"
+    },
+    {
+      "name": "permission_camera_reason",
+      "value": "用于拍摄照片"
+    },
+    {
+      "name": "permission_microphone_reason",
+      "value": "用于录制视频"
+    },
+    {
+      "name": "permission_write_imagevideo_reason",
+      "value": "用于保存拍摄的照片"
     }
   ]
 }

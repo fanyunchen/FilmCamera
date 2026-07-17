@@ -32,6 +32,19 @@
         ]
       }
     ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.CAMERA",
+        "reason": "$string:permission_camera_reason",
+        "usedScene": { "when": "inuse" }
+      },
+      {
+        "name": "ohos.permission.MICROPHONE",
+        "reason": "$string:permission_microphone_reason",
+        "usedScene": { "when": "inuse" }
+      },
+    ]
+  ,
     "extensionAbilities": [
       {
         "name": "EntryBackupAbility",
